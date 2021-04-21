@@ -30,7 +30,9 @@ Find here at this video: [Video](https://youtu.be/cA99dwbh9ME )
  
 
 Join the discord for support and teasers: [Discord](https://discord.gg/g858J6q) 
-Github:[Github](https://github.com/realyusufismail) 
+
+
+[Github]:(https://github.com/realyusufismail) 
 
 website: [Website](https://realyusufismail.github.io) 
 
