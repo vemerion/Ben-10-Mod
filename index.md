@@ -4,29 +4,44 @@ You can use the [editor on GitHub](https://github.com/realyusufismail/custom-mod
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### About my mod
+This is a mod for the villains and heroes in the ben 10 series. The villains will be created first and then the heroes.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ 
 
-```markdown
-Syntax highlighted code block
+In this mod you will be able to fight villains such as Vilgax, Doctor Animo, ect and i will be adding heroes such as Quin but that is in the future. I am focusing on villains. I will be adding swords that were used in ben 10 such as Ascalon and i may add Annihilargh. note this weapon will destroy your world because this is what it does in the series. I will ad the hoverboard in Ben 10 Omniverse and also to have the best experience use  https://www.curseforge.com/minecraft/mc-mods/heroes-united-ben-10. In that mod you can use the omnitrix which means you can turn into Ben 10 transformation and use them against the villains. <The heroes united ben 10 mod is not my mod its made by the Heroes United crew. I will be adding the dragon armour from the series first and also the sword Ascalon. 
 
-# Header 1
-## Header 2
-### Header 3
+ 
 
-- Bulleted
-- List
+to mine the legendary block or ore you will need a diamond pickaxe. The same applies for ruby ore or block 
 
-1. Numbered
-2. List
+wearing the armour will make you near to invincible and the sword will be really strong but the ore will be rare so you will have to mine a-lot to find. Great power does not come without working hard to obtain it.
 
-**Bold** and _Italic_ and `Code` text
+ 
 
-[Link](url) and ![Image](src)
-```
+Furnace recipe and crafting recipe:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Find here at this video: https://youtu.be/cA99dwbh9ME 
+
+ 
+
+ 
+
+ 
+
+Join the discord for support and teasers https://discord.gg/g858J6q
+
+Github: https://github.com/realyusufismail
+
+website: realyusufismail.github.io
+you can donate to me here https://gofund.me/abdcb233
+
+ 
+
+ 
+
+Credits for making most of the textures in this mod:
+PierogiPL:  https://www.curseforge.com/members/polisch_pierogi/
 
 ### Jekyll Themes
 
