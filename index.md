@@ -21,7 +21,7 @@ wearing the armour will make you near to invincible and the sword will be really
 
 Furnace recipe and crafting recipe:
 
-Find here at this video: https://youtu.be/cA99dwbh9ME 
+Find here at this video: [Video](https://youtu.be/cA99dwbh9ME ) 
 
  
 
@@ -29,11 +29,11 @@ Find here at this video: https://youtu.be/cA99dwbh9ME
 
  
 
-Join the discord for support and teasers https://discord.gg/g858J6q
+Join the discord for support and teasers: [Discord](https://discord.gg/g858J6q) 
+Github:[Github](https://github.com/realyusufismail) 
 
-Github: https://github.com/realyusufismail
+website: [Website](https://realyusufismail.github.io) 
 
-website: realyusufismail.github.io
 you can donate to me here https://gofund.me/abdcb233
 
  
