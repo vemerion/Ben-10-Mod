@@ -36,14 +36,13 @@ Find here at this video: [Video](https://youtu.be/cA99dwbh9ME )
 Join the discord for support and teasers: [Discord](https://discord.gg/g858J6q) 
 
 
-[Github]:(https://github.com/realyusufismail) 
-[Website]:(https://realyusufismail.github.io) 
-[you can donate to me here]:(https://gofund.me/abdcb233) 
+MY Github:[Github](https://github.com/realyusufismail) 
+My main website:[Website](https://realyusufismail.github.io) 
+Donate: [you can donate to me here](https://gofund.me/abdcb233) 
  
 
  
 
 Credits for making most of the textures in this mod:
-
-[PierogiPL]:(https://www.curseforge.com/members/polisch_pierogi/) 
+PierogiPL: [PierogiPL](https://www.curseforge.com/members/polisch_pierogi) 
 
