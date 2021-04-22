@@ -1,3 +1,9 @@
+---
+layout: default
+title: Ben 10 mob mod
+description: About my mod and you can download it from here
+
+---
 ## Welcome to Ben ten mob mod
 
 This a place were you can download my mod
