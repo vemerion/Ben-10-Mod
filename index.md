@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ben 10 mob mod
+description: About my mod and you can download it from here
+<a href="https://gofund.me/abdcb233" class="btn">Donate to help me keep making this mod.</a>
+<a href="https://github.com/realyusufismail/custom-mod" class="btn">View on GitHub</a>
+---
 ## Welcome to Ben ten mob mod
 
 This a place were you can download my mod
