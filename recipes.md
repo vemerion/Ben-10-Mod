@@ -24,21 +24,21 @@ description: All the recipes for the items and block in my mod
 ![Heatblast Sword](images/axe.png)
 
 ### Armour
-1.Kinght Helmet
+1.Knight Helmet
 
-![kinght_helmet](images/kinght_helmet.png)
+![Knight_helmet](images/kinght_helmet.png)
 
-2.Kinght Chestplate
+2.Knight Chestplate
 
-![kinght_Chestplate](images/kinght_chestplate.png)
+![Knight_Chestplate](images/kinght_chestplate.png)
 
-3.Kinght Leggings
+3.Knight Leggings
 
-![kinght_Leggings](images/kinght_leggings.png)
+![Knight_Leggings](images/kinght_leggings.png)
 
-4.Kinght boots
+4.Knight boots
 
-![kinght_boots](images/kinght_boots.png)
+![Knight_boots](images/kinght_boots.png)
 
 5.Heatblast helmet
 
