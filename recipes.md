@@ -20,6 +20,10 @@ description: All the recipes for the items and block in my mod
 
 ![Omnitrix_ore](images/omnitrix_smelting.png)
 
+4.Speed ore
+
+Does not need to be smelted.
+
 ### All items crafting recipes
 ### Spawn Eggs
 
@@ -108,8 +112,12 @@ description: All the recipes for the items and block in my mod
 
 ![Legendary Block](images/legendary_block.png)
 
-3.Ruby Block
+4.Ruby Block
 
 ![Ruby Block](images/ruby_block.png)
+
+5.Speed Block
+
+![Speed Block](images/speedblock.png)
 
 
