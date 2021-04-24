@@ -8,8 +8,42 @@ description: All the recipes for the items and block in my mod
  ![All-Items](images/all_items.png)
 
 
-### legendery item,ores and blocks recipes
+### All items crafting recipes
+
+### Tools
 1.Ascalon
 
 ![Ascalon](images/Ascalon.png)
+
+2.AXE SLAYER
+
+![AXE SLAYER](images/heatblast_sword.png)
+
+3.Heatblast Sword
+
+![Heatblast Sword](images/axe.png)
+
+### Armour
+1.Kinght Helmet
+
+![kinght_helmet](images/kinght_helmet.png)
+
+2.Kinght Chestplate
+
+![kinght_Chestplate](images/kinght_chestplate.png)
+
+3.Kinght Leggings
+
+![kinght_Leggings](images/kinght_leggings.png)
+
+4.Kinght boots
+
+![kinght_boots](images/kinght_boots.png)
+
+5.Heatblast helmet
+
+![Heatblast helemt](images/kinght_boots.png)
+
+
+
 
