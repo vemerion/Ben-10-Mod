@@ -7,9 +7,25 @@ description: All the recipes for the items and block in my mod
 ## All items
  ![All-Items](images/all_items.png)
 
+### All Smelting recipes
+1.legendary Ore
+
+![legendary_ore](images/legendary_ore_smelting.png)
+
+2.Ruby Ore
+
+![Ruby_ore](images/ruby_ore_smelting.png)
+
+3.Omnitrix Ore
+
+![Omnitrix_ore](images/omnitrix_smelting.png)
 
 ### All items crafting recipes
+### Spawn Eggs
 
+1.Vilgax Spawn Egg 
+
+![Vilgax Spawn Egg](images/vilgax_egg.png)
 ### Tools
 1.Ascalon
 
@@ -60,6 +76,40 @@ description: All the recipes for the items and block in my mod
 
 ![Jacket](images/jacket.png)
 
+### Food
 
+1.Enchanted Ominitrix Apple
+
+![Enchanted Ominitrix Apple](images/enchanted_omnitrix_apple.png)
+
+2.Ominitrix Apple
+
+![Ominitrix Apple](images/omnitrix_apple.png)
+
+3.Fire Apple
+
+![Fire Apple](images/fire_apple.png)
+
+4.Ruby Apple
+
+![Ruby Apple](images/ruby_apple.png)
+
+### Blocks
+
+1.Omnitrix Block
+
+![Omnitrix Block](images/omnitrix_block.png)
+
+2.Fire Block
+
+![Fire Block](images/fire_block.png)
+
+3.Legendary Block
+
+![Legendary Block](images/legendary_block.png)
+
+3.Ruby Block
+
+![Ruby Block](images/ruby_block.png)
 
 
