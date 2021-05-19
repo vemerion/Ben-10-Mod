@@ -22,7 +22,7 @@ description: All the recipes for the items and block in my mod
 
 4.Speed ore
 
-Does not need to be smelted.
+![Speed_ore](images/speed_smelting.png)
 
 ### All items crafting recipes
 ### Spawn Eggs
@@ -42,6 +42,46 @@ Does not need to be smelted.
 3.Heatblast Sword
 
 ![Heatblast Sword](images/axe.png)
+
+4.Black Diamond Sword
+
+![Black Diamond Sword](images/black_diamond_sword.png)
+
+5.Black Diamond Pickaxe
+
+![Black Diamond Pickaxe](images/black_diamond_pickaxe.png)
+
+6.Black Diamond Axe
+
+![Black Diamond Axe](images/black_diamond_axe.png)
+
+7.Black Diamond Shovel
+
+![Black Diamond Shovel](images/black_diamond_shovel.png)
+
+8.Black Diamond Hoe
+
+![Black Diamond Hoe](images/black_diamond_hoe.png)
+
+9.Infinitum Sword
+
+![Infinitum Sword](images/infinitum_sword.png)
+
+10.Infinitum Pickaxe
+
+![Infinitum Pickaxe](images/infinitum_pickaxe.png)
+
+11.Infinitum Axe
+
+![Infinitum Axe](images/infinitum_axe.png)
+
+12.Black Diamond Shovel
+
+![Infinitum Shovel](images/infinitum_shovel.png)
+
+13.Black Diamond Hoe
+
+![Infinitum Hoe](images/infinitum_hoe.png)
 
 ### Armour
 1.Knight Helmet
@@ -76,7 +116,55 @@ Does not need to be smelted.
 
 ![Heatblast boots](images/heatblast_boots.png)
 
-9.jacket
+9.4Arms Helmet
+
+![4Arms helemt](images/4arms_helmet.png)
+
+10.4Arms chestplate
+
+![4Arms chestplate](images/4arms_helmet.png)
+
+11.4Arms leggings
+
+![4Arms leggings](images/4arms_legging.png)
+
+12.4Arms boots
+
+![4Arms boots](images/4arms_boot.png)
+
+13.Black Diamond Helmet
+
+![Black Diamond helemt](images/black_diamond_helmet.png)
+
+14.Black Diamond chestplate
+
+![Black Diamond chestplate](images/black_diamond_chestplate.png)
+
+15.Black Diamond leggings
+
+![Black Diamond leggings](images/black_diamond_legging.png)
+
+16.4Arms boots
+
+![Black Diamond boots](images/black_diamond_boot.png)
+
+17.Infinitum Helmet
+
+![Infinitum helemt](images/infinitum_helmet.png)
+
+18.Infinitum chestplate
+
+![Infinitum chestplate](images/infinitum_legging.png)
+
+19.Infinitum leggings
+
+![Infinitum leggings](images/infinitum_chestplate.png)
+
+20.Infinitum boots
+
+![Infinitum boots](images/infinitum_boot.png)
+
+21.jacket
 
 ![Jacket](images/jacket.png)
 
@@ -119,5 +207,13 @@ Does not need to be smelted.
 5.Speed Block
 
 ![Speed Block](images/speedblock.png)
+
+6.Speed Block
+
+![Black Diamond Block](images/black_diamond_block.png)
+
+7.Infinitum Block
+
+![Infinitum Block](images/infinitum_block.png)
 
 
