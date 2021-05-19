@@ -122,7 +122,7 @@ description: All the recipes for the items and block in my mod
 
 10.4Arms chestplate
 
-![4Arms chestplate](images/4arms_helmet.png)
+![4Arms chestplate](images/4arms_chestplate.png)
 
 11.4Arms leggings
 
