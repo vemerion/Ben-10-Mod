@@ -316,7 +316,7 @@ public class ModRecipeProvider extends RecipeProvider {
                 .save(consumer,modId("xlr8_boot"));
 
 
-
+/*
         ShapedRecipeBuilder.shaped(ItemInit.FOURARMS_HELMET.get())
                 .define('A',  TagsInit.Items.INGOTS_RUBY)
                 .pattern("AAA")
@@ -350,6 +350,8 @@ public class ModRecipeProvider extends RecipeProvider {
 
 
 
+
+ */
         ShapedRecipeBuilder.shaped(ItemInit.JACKET.get())
                 .define('A', TagsInit.Items.INGOTS_OMNITRIX)
                 .pattern("A A")
@@ -530,7 +532,7 @@ public class ModRecipeProvider extends RecipeProvider {
         CookingRecipeBuilder.blasting(Ingredient.of(ItemInit.XLR8_BOOT.get()), ItemInit.SPEED.get(), 0.3f, 300)
                 .unlockedBy("has_item", has(TagsInit.Items.INGOTS_SPEED))
                 .save(consumer, modId("xlr8_boots_blasting_smelt"));
-
+/*
         CookingRecipeBuilder.blasting(Ingredient.of(ItemInit.FOURARMS_HELMET.get()), ItemInit.RUBY.get(), 0.3f, 300)
                 .unlockedBy("has_item", has(TagsInit.Items.INGOTS_RUBY))
                 .save(consumer, modId("fourarms_helmet_blasting_smelt"));
@@ -544,6 +546,8 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_item", has(TagsInit.Items.INGOTS_RUBY))
                 .save(consumer, modId("fourarms_boots_blasting_smelt"));
 
+
+ */
         CookingRecipeBuilder.blasting(Ingredient.of(ItemInit.BLACK_DIAMOND_HELMET.get()), ItemInit.BLACK_DIAMOND.get(), 0.3f, 300)
                 .unlockedBy("has_item", has(TagsInit.Items.INGOTS_BLACK_DIAMOND))
                 .save(consumer, modId("black_diamond_helmet_blasting_smelt"));
