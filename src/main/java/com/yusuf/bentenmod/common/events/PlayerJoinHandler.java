@@ -1,3 +1,4 @@
+/*
 package com.yusuf.bentenmod.common.events;
 
 import com.yusuf.bentenmod.Main;
@@ -22,8 +23,12 @@ public class PlayerJoinHandler {
          * Ideally, we want to make it so that any attempts to access the books cleanly receive dummy/blank data
          * until the contents load, but alas here we are.
          * TODO: Do that^
-         */
+
         ((ServerPlayerEntity) evt.getPlayer()).getAdvancements().flushDirty((ServerPlayerEntity) evt.getPlayer());
 
     }
 }
+
+
+ */
+
