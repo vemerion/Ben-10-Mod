@@ -1,13 +1,18 @@
 
 package com.yusuf.bentenmod.core.machine.alientable;
 
+import com.yusuf.bentenmod.core.init.BlockInit;
+import com.yusuf.bentenmod.core.machine.bententable.TableTileEntity;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.inventory.IInventory;
+import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.inventory.container.INamedContainerProvider;
 import net.minecraft.inventory.container.SimpleNamedContainerProvider;
 import net.minecraft.inventory.container.WorkbenchContainer;
 import net.minecraft.stats.Stats;
+import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.util.Hand;
 import net.minecraft.util.IWorldPosCallable;
@@ -41,15 +46,22 @@ public class AlienTable extends Block {
         }
     }
 
+
+
+
     @Override
     public INamedContainerProvider getMenuProvider(BlockState p_220052_1_, World p_220052_2_, BlockPos p_220052_3_) {
         return new SimpleNamedContainerProvider((p_220270_2_, p_220270_3_, p_220270_4_) -> {
             return new WorkbenchContainer(p_220270_2_, p_220270_3_, IWorldPosCallable.create(p_220052_2_, p_220052_3_));
-
+    
         }, CONTAINER_TITLE);
-    }
 
     }
+    public boolean stillValid(PlayerEntity playerIn) {
+        return stillValid(this.access, playerIn, BlockInit.ALIEN_TABLE);
+    }
+
+}
 
 
 
