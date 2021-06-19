@@ -42,6 +42,7 @@ import java.util.stream.Collectors;
  * @see net.minecraft.data.BlockModelProvider
  */
 import static com.yusuf.bentenmod.core.init.BlockInit.*;
+import static net.minecraft.data.ModelTextures.getBlockTexture;
 import static net.minecraft.util.Util.name;
 
 public class ModelProvider {
@@ -280,7 +281,7 @@ public class ModelProvider {
         }
 
         private void createSmithingTable() {
-            ModelTextures modeltextures = (new ModelTextures()).put(StockTextureAliases.PARTICLE, ModelTextures.getBlockTexture(Blocks.SMITHING_TABLE, "_front")).put(StockTextureAliases.DOWN, ModelTextures.getBlockTexture(Blocks.SMITHING_TABLE, "_bottom")).put(StockTextureAliases.UP, ModelTextures.getBlockTexture(Blocks.SMITHING_TABLE, "_top")).put(StockTextureAliases.NORTH, ModelTextures.getBlockTexture(Blocks.SMITHING_TABLE, "_front")).put(StockTextureAliases.SOUTH, ModelTextures.getBlockTexture(Blocks.SMITHING_TABLE, "_front")).put(StockTextureAliases.EAST, ModelTextures.getBlockTexture(Blocks.SMITHING_TABLE, "_side")).put(StockTextureAliases.WEST, ModelTextures.getBlockTexture(Blocks.SMITHING_TABLE, "_side"));
+            ModelTextures modeltextures = (new ModelTextures()).put(StockTextureAliases.PARTICLE, getBlockTexture(Blocks.SMITHING_TABLE, "_front")).put(StockTextureAliases.DOWN, getBlockTexture(Blocks.SMITHING_TABLE, "_bottom")).put(StockTextureAliases.UP, getBlockTexture(Blocks.SMITHING_TABLE, "_top")).put(StockTextureAliases.NORTH, getBlockTexture(Blocks.SMITHING_TABLE, "_front")).put(StockTextureAliases.SOUTH, getBlockTexture(Blocks.SMITHING_TABLE, "_front")).put(StockTextureAliases.EAST, getBlockTexture(Blocks.SMITHING_TABLE, "_side")).put(StockTextureAliases.WEST, getBlockTexture(Blocks.SMITHING_TABLE, "_side"));
             this.blockStateOutput.accept(createSimpleBlock(Blocks.SMITHING_TABLE, StockModelShapes.CUBE.create(Blocks.SMITHING_TABLE, modeltextures, this.modelOutput)));
         }
 
@@ -288,12 +289,16 @@ public class ModelProvider {
             ModelTextures modeltextures = p_239875_3_.apply(p_239875_1_, p_239875_2_);
             this.blockStateOutput.accept(createSimpleBlock(p_239875_1_, StockModelShapes.CUBE.create(p_239875_1_, modeltextures, this.modelOutput)));
         }
-
+        public static ModelTextures craftingTable(Block p_240359_0_, Block p_240359_1_) {
+            return (new ModelTextures()).put(StockTextureAliases.PARTICLE, getBlockTexture(p_240359_0_, "_front")).put(StockTextureAliases.DOWN, getBlockTexture(p_240359_1_)).put(StockTextureAliases.UP, getBlockTexture(p_240359_0_, "_top")).put(StockTextureAliases.NORTH, getBlockTexture(p_240359_0_, "_front")).put(StockTextureAliases.EAST, getBlockTexture(p_240359_0_, "_side")).put(StockTextureAliases.SOUTH, getBlockTexture(p_240359_0_, "_side")).put(StockTextureAliases.WEST, getBlockTexture(p_240359_0_, "_front"));
+        }
+/** @see BlockModelProvider*/
 
             @Override
             public void run() {
                 createFurnace(TABLE_BLOCK.get(), TexturedModel.ORIENTABLE_ONLY_TOP);
-               createTrivialBlock(INFINITUM_ORE.get(), TexturedModel.COLUMN);
+                createCraftingTableLike(ALIEN_TABLE.get(),Blocks.OAK_PLANKS, ModelTextures::craftingTable);
+                createTrivialBlock(INFINITUM_ORE.get(), TexturedModel.COLUMN);
                 createTrivialCube(BLACK_DIAMOND_BLOCK.get());
                 createTrivialCube(BLACK_DIAMOND_ORE.get());
                 createTrivialCube(INFINITUM_BLOCK.get());
@@ -315,6 +320,7 @@ public class ModelProvider {
                 createTrivialCube(DEEPSLATE_IMPERIUM_ORE.get());
                 createTrivialCube(DEEPSLATE_OMNITRIX_ORE.get());
                 createTrivialCube(DEEPSLATE_LEGENDARY_ORE_BLOCK.get());
+
 
             }
 
