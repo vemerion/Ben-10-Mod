@@ -21,6 +21,7 @@ import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
+import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.common.ToolType;
 
 public class AlienTable extends Block {
@@ -46,11 +47,13 @@ public class AlienTable extends Block {
         }
     }
 
+    @Override
     public INamedContainerProvider getMenuProvider(BlockState p_220052_1_, World p_220052_2_, BlockPos p_220052_3_) {
         return new SimpleNamedContainerProvider((p_220270_2_, p_220270_3_, p_220270_4_) -> {
             return new WorkbenchContainer(p_220270_2_, p_220270_3_, IWorldPosCallable.create(p_220052_2_, p_220052_3_));
         }, CONTAINER_TITLE);
     }
+        
 
 }
 
