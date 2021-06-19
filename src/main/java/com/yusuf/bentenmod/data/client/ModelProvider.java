@@ -53,27 +53,6 @@ public class ModelProvider {
 
         @Override
         protected void registerModels() {
-            //block("black_diamond_block");
-            //block("black_diamond_ore");
-             //block("fire_block");
-             //block("fire_ore");
-             //block("legendary_block");
-             //block("omnitrix_block");
-             //block("speed_block");
-             //block("ruby_block");
-             //block("ruby_ore");
-             //block("infinitum_block");
-             //block("speed_ore");
-             //block("omnitrix_ore");
-             //block("imperium_ore");
-             //block("legendary_ore_block");
-             //block("imperium_block");
-             //block("deepslate_legendary_ore_block");
-             //block("deepslate_ruby_ore");
-             //block("deepslate_black_diamond_ore");
-             //block("deepslate_imperium_ore");
-             //block("deepslate_speed_ore");
-             //block("deepslate_omnitrix_ore");
 
 
             ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));
@@ -279,18 +258,7 @@ public class ModelProvider {
         }
 
 
-        /*
-        private void createFurnace(Block p_239977_1_, TexturedModel.ISupplier p_239977_2_) {
-            ResourceLocation resourcelocation = p_239977_2_.create(p_239977_1_, this.modelOutput);
-            ResourceLocation resourcelocation1 = ModelTextures.getBlockTexture(p_239977_1_, "_front_on");
-            ResourceLocation resourcelocation2 = p_239977_2_.get(p_239977_1_).updateTextures((p_239963_1_) -> {
-                p_239963_1_.put(StockTextureAliases.FRONT, resourcelocation1);
-            }).createWithSuffix(p_239977_1_, "_on", this.modelOutput);
-            this.blockStateOutput.accept(FinishedVariantBlockState.multiVariant(p_239977_1_).with(createBooleanModelDispatch(BlockStateProperties.LIT, resourcelocation2, resourcelocation)).with(createHorizontalFacingDispatch()));
-        }
 
-
-         */
 
 
 
@@ -302,15 +270,7 @@ public class ModelProvider {
             this.blockStateOutput.accept(FinishedVariantBlockState.multiVariant(p_239977_1_).with(createBooleanModelDispatch(BlockStateProperties.LIT, resourcelocation1, resourcelocation)).with(createHorizontalFacingDispatch()));
         }
 
-        //
-/*
-        private void createInfinitum(Block p_239977_1_, TexturedModel.ISupplier p_239977_2_) {
-            ResourceLocation resourcelocation = p_239977_2_.create(p_239977_1_, this.modelOutput);
-            this.blockStateOutput.accept(FinishedVariantBlockState.multiVariant(p_239977_1_).with(createBooleanModelDispatch(BlockStateProperties.LIT, resourcelocation)).with(createHorizontalFacingDispatch()));
-        }
 
-
- */
         private void createTrivialCube(Block p_239975_1_) {
             this.createTrivialBlock(p_239975_1_, TexturedModel.CUBE);
         }
